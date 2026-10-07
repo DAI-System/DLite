@@ -1,4 +1,8 @@
-# DLite inference
+<p align="center">
+  <img src="assets/dlite-logo.jpeg" alt="DLite logo" width="320">
+</p>
+
+<h1 align="center">DLite inference</h1>
 
 This repository is the inference-only release of DLite for Qwen3. It provides a
 small Python API, a CLI, and a JSONL throughput benchmark. Model weights are
