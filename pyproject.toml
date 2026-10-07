@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dlite-inference"
+version = "0.1.0"
+description = "DLite speculative decoding inference for Qwen3"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "safetensors>=0.4",
+  "torch==2.9.1",
+  "transformers==4.57.1",
+  "typing-extensions>=4.10",
+]
+
+[project.optional-dependencies]
+flash-attn = ["flash-attn"]
+dev = ["pytest>=8", "ruff>=0.8"]
+
+[project.scripts]
+dlite = "dlite.cli:main"
+dlite-benchmark = "dlite.benchmark:main"
+
+[tool.setuptools.packages.find]
+include = ["dlite*"]
