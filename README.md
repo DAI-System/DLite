@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/dlite-logo.jpeg" alt="DLite logo" width="320">
+  <img src="assets/dlite.svg" alt="DLite logo" width="640">
 </p>
 
 <h1 align="center">DLite inference</h1>
