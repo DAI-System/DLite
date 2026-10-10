@@ -71,15 +71,15 @@ time. The chart data and plotting code are in
 
 **Short input · 39 tokens**
 
-[![DLite short-input demo, animated preview](assets/demo-shortinput.gif)](attachments/shortinput.mp4)
+[![DLite short-input demo, animated preview](assets/demo-shortinput.gif)](attachments/short_with_len.mp4)
 
-[▶ Watch the short-input video](attachments/shortinput.mp4)
+[▶ Watch the short-input video](attachments/short_with_len.mp4)
 
 **Long input · 46,704 tokens**
 
-[![DLite long-input demo, animated preview](assets/demo-longinput.gif)](attachments/longinput.mp4)
+[![DLite long-input demo, animated preview](assets/demo-longinput.gif)](attachments/long_with_len.mp4)
 
-[▶ Watch the long-input video](attachments/longinput.mp4)
+[▶ Watch the long-input video](attachments/long_with_len.mp4)
 
 The previews above loop automatically. Click a preview or video link to open the
 original MP4.
